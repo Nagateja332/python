@@ -1,0 +1,22 @@
+import numpy as np
+a=np.matrix([[1,2,3],[4,5,6],[7,8,9]])
+m=np.matrix([[1,2,3],[4,5,6],[7,8,9]])
+b=m
+print "MATRIX IS:\n",m
+print"DETERMINANT OF MATRIX IS:\n",np.linalg.det(m)
+print "INVERSE OF MATRIX IS:\n",np.linalg.inv(m)
+print "NORM OF MATRIX IS:\n",np.linalg.norm(m)
+print "RANK OF MATRIX IS:\n",np.linalg.matrix_rank(m)
+print "TRACE OF MATRIX IS:\n",np.trace(m)
+p=input("ENTER POWER OF MATRIX:\n")
+print "POWER OF MATRIX IS:\n",np.linalg.matrix_power(m,p)
+print "TRANSPOSE OF MATRIX IS:\n",np.transpose(m)
+print "EIGEN VALUES OF MATRIX IS:\n",np.linalg.eigvals(m)
+print "MAXIMUM OF MATRIX IS:\n",np.max(a)
+print "MINIMUM OF MATRIX IS:\n",np.min(a)
+print "ADDITION OF TWO MATRICES A & B IS:\n",np.add(a,b)
+print "SUBTRACTION OF MATRIX B FROM MATRIX A IS:\n",np.subtract(a,b)
+print "MULTIPLICATION OF MATRICES A & B IS :\n",np.multiply(a,b)
+print "DIVISION OF MATRIX A BY MATRIX B IS:\n",np.divide(a,b)
+print "DOT PRODUCT OF BOTH MATRICES:\n",np.dot(a,b)
+print "SQUARE ROOT OF MATRIX B IS:\n",np.sqrt(b)
